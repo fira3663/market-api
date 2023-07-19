@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$797/BmMOrVek32mB1t3bOO2A9y01H1mj7vGT8pv7xpcOuL6ccTD92",
+      "id": 1,
+      "role_id": 1,
+      "name": "John",
+      "img": "uploads\\1685972689844.jpg"
+    },
+    {
+      "email": "jane@gmail.com",
+      "password": "$2a$10$X3PL4uCAWt77O4cAxkeylukfy.9xlqWd15HfSRCgqGNJvHJBLoabq",
+      "id": 2,
+      "role_id": 2,
+      "name": "Jane",
+      "img": "uploads\\1685972902283.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "кроссы",
+      "categoryId": 4,
+      "subCategoryId": 4,
+      "brandId": "",
+      "price": "4000",
+      "discount": 20,
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/png",
+          "src": "uploads\\1689497651478.png"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Платье",
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "brandId": "",
+      "price": "4000",
+      "discount": 20,
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1689498724543.jpg"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "рубашка флуенс",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": "",
+      "price": "5000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1689503626099.jpg"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "брюки",
+      "categoryId": 2,
+      "subCategoryId": 2,
+      "brandId": "",
+      "price": "3500",
+      "discount": 20,
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/png",
+          "src": "uploads\\1689515780512.png"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "юбки",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": "",
+      "price": "10000",
+      "discount": 10,
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1689530137501.jpg"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "name": "Женщинам",
+      "img": "uploads\\1688750615891.jpg",
+      "id": 1
+    },
+    {
+      "name": "Мужчинам",
+      "img": "uploads\\1688750633894.jpg",
+      "id": 2
+    },
+    {
+      "name": "Детям",
+      "img": "uploads\\1688750662210.jpg",
+      "id": 3
+    },
+    {
+      "name": "Обувь",
+      "img": "uploads\\1688750813586.jpg",
+      "id": 4
+    }
+  ],
+  "subCategories": [
+    {
+      "name": "Блузки и рубашки",
+      "img": "uploads\\1688750706674.jpg",
+      "categoryId": 1,
+      "brands": [],
+      "id": 1
+    },
+    {
+      "name": "Брюки",
+      "img": "uploads\\1688750879682.png",
+      "categoryId": 2,
+      "brands": [],
+      "id": 2
+    },
+    {
+      "name": "Верхняя Одежда",
+      "img": "uploads\\1688750920946.png",
+      "categoryId": 2,
+      "brands": [],
+      "id": 3
+    },
+    {
+      "name": "мальчикам",
+      "img": "uploads\\1688751123236.png",
+      "categoryId": 4,
+      "brands": [],
+      "id": 4
+    }
+  ],
+  "brands": [
+    {
+      "name": "OppO",
+      "img": "uploads\\1688672644804.jpg",
+      "id": 3
+    }
+  ],
+  "orders": []
+}
